@@ -1,0 +1,20 @@
+{
+  "name": "servidor",
+  "version": "1.0.0",
+  "description": "API del Maratón de series",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node --env-file=.env --watch src/index.js",
+    "start": "node --env-file=.env src/index.js",
+    "semilla": "node --env-file=.env scripts/semilla.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "mongodb": "^7.9.0"
+  }
+}

@@ -1,0 +1,22 @@
+/* estilos.css
+   Estilos propios del buscador. Bootstrap se carga antes en index.html. */
+
+body {
+  background-color: #f5f7fb;
+}
+
+/* Tarjeta de una serie: se levanta un poco al pasar el mouse */
+.tarjeta-serie {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.tarjeta-serie:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.08);
+}
+
+/* Las portadas tienen distintos tamaños: todas se ven con la misma proporción */
+.tarjeta-serie .card-img-top {
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  background-color: #e2e8f0;
+}

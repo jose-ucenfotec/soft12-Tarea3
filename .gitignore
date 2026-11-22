@@ -1,0 +1,17 @@
+# Dependencias y compilados
+node_modules/
+dist/
+bin/
+obj/
+
+# Secretos: solo se suben los .env.example
+.env
+.env.local
+*.local
+
+# Editor y sistema
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.log
